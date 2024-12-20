@@ -213,3 +213,4 @@
 2024-12-19 21:02:36,867 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Users\shiva\STS\CRUD\ems-backend\ems-backend\src\test\resources
 2024-12-20 15:47:08,794 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2024-12-20 16:27:27,763 [main] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\Users\User\git\EMS\.git]
+2024-12-20 16:50:30,145 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
