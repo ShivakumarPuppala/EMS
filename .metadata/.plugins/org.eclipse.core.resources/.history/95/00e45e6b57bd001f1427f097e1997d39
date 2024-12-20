@@ -1,0 +1,5 @@
+package com.crud.ems.exception;
+
+public class ResourceNotFound {
+
+}

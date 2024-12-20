@@ -1,0 +1,25 @@
+package com.crud.ems.service;
+
+import org.springframework.stereotype.Service;
+
+import com.crud.ems.dto.EmployeeDto;
+import com.crud.ems.entity.Employee;
+import com.crud.ems.mapper.EmployeeMapper;
+import com.crud.ems.repository.EmployeeRepository;
+
+import lombok.AllArgsConstructor;
+
+@Service
+@AllArgsConstructor
+public class EmployeeServiceImp implements EmployeeService{
+	private EmployeeRepository employeeRepository;
+	@Override
+	public EmployeeDto createEmployeeDto(EmployeeDto employeeDto) {
+		// TODO Auto-generated method stub
+		Employee employee=EmployeeMapper.mapToEmployee(employeeDto);
+		Employee savedEmployee=employeeRepository.save(employee);
+		return 	EmployeeMapper.mapToEmployeeDto(savedEmployee);
+	}
+	
+
+}

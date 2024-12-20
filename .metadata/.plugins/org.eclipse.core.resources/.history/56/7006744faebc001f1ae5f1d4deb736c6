@@ -1,0 +1,8 @@
+package com.crud.ems.service;
+
+import com.crud.ems.dto.EmployeeDto;
+
+public interface EmployeeServiceImp {
+	EmployeeDto createEmployeeDto(EmployeeDto employeeDto);
+
+}
